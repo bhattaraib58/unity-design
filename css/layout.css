@@ -1,0 +1,161 @@
+body {
+    font-size: 16px;
+}
+
+li,
+a,
+span,
+div {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header-wrapper {
+    background-color:#ffffff;
+}
+
+.header {
+    background-color:#ffffff;
+    padding-top: 4.791666%;
+}
+
+.logo-wrap {
+    float: left;
+    width: 90.604168%;
+}
+
+.logo {
+    margin: 0px auto;
+    width: 9.111136%;
+    min-width: 105px;
+    padding-left: 8%;
+}
+
+.logo h1 {
+    margin: 0px auto;
+    width: 92.592592%;
+}
+
+.logo h1 img {
+    width: 100%;
+    max-width: 150px;
+    vertical-align: top;
+}
+
+.social {
+    margin-top: 18.45679%;
+    white-space: nowrap;
+}
+
+.social li:not(:last-child) {
+    margin-right: 19.753086%;
+}
+
+.social li img {
+    width: 100%;
+    max-width: 18px;
+}
+
+.menu {
+    float: right;
+    width: 4.239583%;
+    min-width: 25px;
+}
+
+.menu button {
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+
+.menu button img {
+    width: 100%;
+    max-width: 43px;
+}
+
+.headtopic-wrapper {
+    background-color:#ffffff;
+}
+
+.headtopic {
+    background-color:#ffffff;
+    padding-top: 4.836895%;
+    background: url("../images/background-himalaya.png") no-repeat;
+    background-position: center;
+    background-size: 1920px 1080px;
+    height: 1080px;
+    width: 1920px;
+}
+
+.line span {
+    margin: 0% 50%;
+    display: inline-block;
+    line-height: 80px;
+    background-image: url("../images/2pixel.png");
+    padding: 0px 1px;
+    background-repeat: repeat-y;
+}
+.topic
+{
+    margin-top: 6.354166%;
+    text-align: center;
+
+}
+.topic span
+{
+    font-size: 100px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.watchvideo
+{
+    margin-top: 2.395833%;
+    text-align: center;
+}
+.watchvideo span
+{
+    padding-left:2.083333%;
+    font-size: 20px;
+    white-space: nowrap;
+    background-image: url("../images/video.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px; 
+}
+
+.discover
+{
+    margin-top: 2.1875%;
+    text-align: center;
+}
+
+.discover button
+{
+    background-color: #ff5617;
+    border: none;
+    border-radius: 50px;    
+    padding: 5px;
+    font-size: 18px;
+    white-space: nowrap;
+    width: 10.416666%;
+    height: 55px;
+}

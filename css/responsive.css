@@ -1,0 +1,26 @@
+.page-content {
+    margin: 0px auto;
+    width: 100%;
+    padding-left: 2.604166%;
+    padding-right: 2.604166%;
+    box-sizing: border-box;
+}
+
+@media (min-width:768px) {
+    .logo-wrap {
+        width: 92.604168%;
+    }
+
+    .menu {
+        width: 4.239583%;
+    }
+}
+
+@media (min-width:968px) {}
+
+@media (min-width:1200px) {
+    .page-content {
+        max-width: 120rem;
+        /* width:80em; */
+    }
+}
