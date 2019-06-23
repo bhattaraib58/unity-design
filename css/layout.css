@@ -15,6 +15,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 a,
@@ -29,11 +30,11 @@ button {
 }
 
 .header-wrapper {
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
 
 .header {
-    background-color:#ffffff;
+    background-color: #ffffff;
     padding-top: 4.791666%;
 }
 
@@ -46,7 +47,7 @@ button {
     margin: 0px auto;
     width: 9.111136%;
     min-width: 105px;
-    padding-left: 8%;
+    padding-left: 5%;
 }
 
 .logo h1 {
@@ -92,70 +93,533 @@ button {
 }
 
 .headtopic-wrapper {
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
 
 .headtopic {
-    background-color:#ffffff;
+    background-color: #ffffff;
     padding-top: 4.836895%;
     background: url("../images/background-himalaya.png") no-repeat;
     background-position: center;
-    background-size: 1920px 1080px;
-    height: 1080px;
-    width: 1920px;
+    background-size: 100% 100%;
+    height: 526px;
+    width: 100%;
 }
 
 .line span {
     margin: 0% 50%;
     display: inline-block;
-    line-height: 80px;
+    line-height: 40px;
     background-image: url("../images/2pixel.png");
     padding: 0px 1px;
     background-repeat: repeat-y;
 }
-.topic
-{
+
+.topic {
     margin-top: 6.354166%;
     text-align: center;
 
 }
-.topic span
-{
-    font-size: 100px;
+
+.topic span {
+    font-size: 52px;
     white-space: nowrap;
     font-weight: bold;
 }
 
-.watchvideo
-{
+.watchvideo {
     margin-top: 2.395833%;
     text-align: center;
 }
-.watchvideo span
-{
-    padding-left:2.083333%;
-    font-size: 20px;
+
+.watchvideo span {
+    padding-left: 2.083333%;
+    font-size: 11px;
     white-space: nowrap;
     background-image: url("../images/video.png");
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 20px 20px; 
+    background-size: 16px 16px;
 }
 
-.discover
-{
+.discover {
     margin-top: 2.1875%;
     text-align: center;
 }
 
-.discover button
-{
+.discover button {
     background-color: #ff5617;
     border: none;
-    border-radius: 50px;    
+    border-radius: 50px;
     padding: 5px;
-    font-size: 18px;
+    font-size: 10px;
     white-space: nowrap;
     width: 10.416666%;
-    height: 55px;
+    height: 28px;
+}
+
+.services-image-wrapper {
+    background-color: #ffffff;
+}
+
+.services-image-wrapper .services-image {
+    background-color: #ffffff;
+    position: relative;
+}
+
+.services-wrapper {
+    width: 52.371342%;
+    float: left;
+}
+
+.services {
+    padding: 12.524084% 16.377649% 15.414258% 16.3776493%;
+}
+
+.services span {
+    font-size: 12px;
+}
+
+.services h3 {
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.services h3 span {
+    font-size: 36px;
+    color: #ff5617;
+
+}
+
+.services p {
+    font-size: 11px;
+}
+
+.button-indicators {
+    margin-top: 26px;
+}
+
+.button-indicators button {
+    border-radius: 50%;
+    font-size: 8px;
+    text-align: center;
+    width: 26px;
+    height: 26px;
+}
+
+.button-indicators .inactive {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.button-indicators .active {
+    background-color: #ff5617;
+    border: 1px solid #ff5617;
+    color: white;
+}
+
+.product-images {
+    width: 42.7850655%;
+    background-color: #2c3da7;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: -156px;
+    height: 310px;
+}
+
+.product {
+    position: absolute;
+    top: -100px;
+    right: 10.14150943%;
+}
+
+.arrows {
+    position: absolute;
+    width: 11.3207547%;
+    left: -5.660377%;
+    bottom: 0;
+}
+
+.arrows button {
+    width: 50%;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+}
+
+.arrows .left-arrow {
+    background-color: #2c3da7;
+    float: left;
+}
+
+.arrows .right-arrow {
+    background-color: #ffffff;
+    float: right;
+}
+
+.user-testomonial-wrapper {
+    background: url("../images/user-testomonial-background.png") no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.user-testomonial {
+    background-color: #2b3ca3;
+    opacity: 0.70;
+}
+
+.user-review {
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 45.060483%;
+    margin-left: 8.3669354%;
+    margin-top: 8.3669354%;
+    float: left;
+}
+
+.user-review h3 {
+    font-size: 36px;
+    line-height: 60px;
+}
+
+.user-review p {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.user-review .parenthesis {
+    font-size: 568px;
+    text-align: start;
+}
+
+.sign {
+    margin-top: 18px;
+}
+
+.sign div {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.sign .line {
+    background-image: url("../images/sign-line.png");
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    width: 42px;
+    height: 2px;
+}
+
+.slider {
+    width: 7.0564516%;
+    float: right;
+    margin-top: 7.3669354%;
+    margin-bottom: 7.3669354%;
+}
+
+.slider button {
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+
+.slider div {
+    width: 100%;
+    text-align: center;
+}
+
+.indexes {
+    color: #ffffff;
+}
+
+.other-index {
+    font-size: 26px;
+    opacity: 0.05;
+}
+
+.slider .current-index {
+    font-size: 52px;
+    opacity: 1.05;
+}
+
+.up-arrow {
+    margin-bottom: 60px;
+}
+
+.down-arrow {
+    margin-top: 60px;
+}
+
+.work-performed-wrapper,
+.work-performed {
+    background-color: #ffffff;
+}
+
+.work-performed h2 {
+    margin-top: 100px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.work-performed p {
+    width: 47.782258%;
+    text-align: center;
+    margin: 18px auto 0px auto;
+    font-size: 11px;
+    line-height: 21px;
+}
+
+.category {
+    margin: 42px auto 0px auto;
+    width: 220px;
+}
+
+.category button {
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 7px;
+    color: #999999;
+    padding-bottom: 7px;
+    padding-left: 12px;
+}
+
+.category .active {
+    color: #000000;
+}
+
+.category .active {
+    background-image: url("../images/sign-line.png");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+}
+
+.category button:active {
+    color: #000000;
+    background-image: url("../images/sign-line.png");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+}
+
+.category li {
+    margin-right: 2.217741%;
+}
+
+.tasks {
+    margin: 40px auto 0px auto;
+    width: 58.5282%;
+}
+
+.task {
+    position: relative;
+    height: 293px;
+    width: 243px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #000000;
+    overflow: hidden;
+    text-align: center;
+}
+
+.task img {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+    margin: auto;
+}
+
+.info {
+    position: absolute;
+    z-index: 10;
+    bottom: 32px;
+    left: -52px;
+
+    height: 111px;
+    width: 218px;
+    padding: 16px;
+
+    background-color: #ff5617;
+    color: #ffffff;
+    text-align: left;
+
+    display: none;
+}
+
+.title {
+    font-size: 42px;
+    line-height: 38px;
+}
+
+.task-category {
+    font-size: 8px;
+    line-height: 12px;
+}
+
+
+/* services  */
+.services-performed-wrapper,
+.services-performed {
+    background-color: #ffffff;
+}
+
+.services-performed h2 {
+    margin-top: 124px;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.services-performed p {
+    width: 47.782258%;
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.services-list {
+    margin: 50px auto 0px auto;
+}
+
+.service {
+    text-align: center;
+    border: 1px solid #ececec;
+    width: 30.94758065%;
+    height: 228px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.service h3 {
+    font-size: 20px;
+}
+
+.service p {
+    font-size: 8px;
+    line-height: 15px;
+    margin: 18px auto 0px auto;
+    width: 100%;
+}
+
+.service:hover {
+    background-color: #2c3da7;
+    color: #ffffff;
+}
+
+.service a:hover {
+    color: #ffffff;
+}
+
+
+/* intro wrapper */
+.intro-wrapper,
+.intro {
+    background-color: #ff5617;
+}
+
+.intro-wrapper .intro {
+    height: 412px;
+    box-sizing: content-box;
+    position: relative;
+    margin-top: 20px;
+}
+
+.video-content {
+    height: 100%;
+    width: 100%;
+    top: -4%;
+    left: 30%;
+    position: absolute;
+}
+
+.intro-video {
+    position: absolute;
+    z-index: 5;
+    object-fit: inherit;
+}
+
+.video-control {
+    width: 16.415662%;
+    font-size: 10px;
+    position: absolute;
+    z-index: 10;
+    left: 1%;
+    top: 2%;
+}
+
+.video-control button {
+    border: none;
+    background: transparent;
+    background-image: url('../images/video-play-pause-ecllipse.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    width: 48px;
+    height: 48px;
+}
+
+.video-control img {
+    width: 10px;
+    height: 10px;
+}
+
+/* services  */
+.clients-testomonials-wrapper,
+.clients-testomonials {
+    background-color: #ffffff;
+}
+
+.clients-testomonials h2 {
+    margin-top: 124px;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.clients-testomonials p {
+    width: 47.782258%;
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.client-reviews {
+    margin-top: 40px;
+}
+
+.clients-testomonials .client-reviews p {
+    font-size: 19px;
+
+}
+
+.client-info{
+    margin: 0px auto;
+    text-align: center;
+}
+.client-name{
+    font-size: 9px;
+    line-height: 16px;
+}
+.client-office{
+    line-height:7px;
+}
+.client-office a{
+    font-size: 7px;
+    color: #2c3da7;
+    line-height:7px;
 }

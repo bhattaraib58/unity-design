@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+.test
+{
+    height: 200px;
+    width: 800px;
+}
+
 @media (min-width:768px) {
     .logo-wrap {
         width: 92.604168%;
