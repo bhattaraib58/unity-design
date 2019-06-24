@@ -21,6 +21,7 @@ a {
 a,
 button {
     cursor: pointer;
+    outline: 0;
 }
 
 .clearfix::after {
@@ -106,12 +107,15 @@ button {
     width: 100%;
 }
 
+.line {
+    text-align: center;
+}
+
 .line span {
-    margin: 0% 50%;
     display: inline-block;
     line-height: 40px;
     background-image: url("../images/2pixel.png");
-    padding: 0px 1px;
+    padding-left: 1px;
     background-repeat: repeat-y;
 }
 
@@ -262,12 +266,11 @@ button {
 .user-testomonial-wrapper {
     background: url("../images/user-testomonial-background.png") no-repeat;
     background-position: top;
-    background-size: cover;
 }
 
 .user-testomonial {
     background-color: #2b3ca3;
-    opacity: 0.70;
+    opacity: 0.85;
 }
 
 .user-review {
@@ -292,6 +295,9 @@ button {
 .user-review .parenthesis {
     font-size: 568px;
     text-align: start;
+    line-height: 0px;
+    margin-top: 254px;
+    margin-bottom: -122px;
 }
 
 .sign {
@@ -327,6 +333,7 @@ button {
 .slider div {
     width: 100%;
     text-align: center;
+    font-weight: bold;
 }
 
 .indexes {
@@ -412,18 +419,17 @@ button {
     width: 58.5282%;
 }
 
-.task {
+.tasks li {
     position: relative;
     height: 293px;
     width: 243px;
-    margin: 15px;
-    border-radius: 5px;
-    background-color: #000000;
+    margin: 5px;
+    background-color: #f1d8d8;
     overflow: hidden;
     text-align: center;
 }
 
-.task img {
+.tasks li img {
     position: absolute;
     z-index: 5;
     top: 0;
@@ -488,34 +494,35 @@ button {
 
 .services-list {
     margin: 50px auto 0px auto;
+    vertical-align: middle;
+    text-align: center;
 }
 
-.service {
+.services-list li {
     text-align: center;
     border: 1px solid #ececec;
-    width: 30.94758065%;
-    height: 228px;
+    width: 25.947581%;
     padding: 25px;
-    box-sizing: border-box;
+    height: 228px;
 }
 
-.service h3 {
+.services-list li h3 {
     font-size: 20px;
 }
 
-.service p {
+.services-list li p {
     font-size: 8px;
     line-height: 15px;
     margin: 18px auto 0px auto;
     width: 100%;
 }
 
-.service:hover {
+.services-list li:hover {
     background-color: #2c3da7;
     color: #ffffff;
 }
 
-.service a:hover {
+.services-list li a:hover {
     color: #ffffff;
 }
 
@@ -528,27 +535,31 @@ button {
 
 .intro-wrapper .intro {
     height: 412px;
-    box-sizing: content-box;
     position: relative;
     margin-top: 20px;
 }
 
 .video-content {
     height: 100%;
-    width: 100%;
+    width: 62%;
     top: -4%;
-    left: 30%;
+    left: 50%;
+    right: 50%;
     position: absolute;
+    transform: translate(-50%, 0%);
 }
 
 .intro-video {
     position: absolute;
     z-index: 5;
     object-fit: inherit;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    right: 50%;
 }
 
 .video-control {
-    width: 16.415662%;
+    width: 35.415662%;
     font-size: 10px;
     position: absolute;
     z-index: 10;
@@ -604,22 +615,138 @@ button {
 
 .clients-testomonials .client-reviews p {
     font-size: 19px;
-
 }
 
-.client-info{
+.client-info {
     margin: 0px auto;
     text-align: center;
 }
-.client-name{
+
+.client-name {
     font-size: 9px;
     line-height: 16px;
 }
-.client-office{
-    line-height:7px;
+
+.client-office {
+    line-height: 7px;
 }
-.client-office a{
+
+.client-office a {
     font-size: 7px;
     color: #2c3da7;
-    line-height:7px;
+    line-height: 7px;
+}
+
+.clients {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 37px;
+}
+
+.clients li {
+    vertical-align: middle;
+}
+
+.clients button {
+    border: none;
+    background: transparent;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.clients button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.clients .active {
+    opacity: 1;
+}
+
+
+/* clients  */
+.clients-photo-wrapper,
+.clients-photo {
+    background-color: #ffffff;
+}
+
+.clients-photo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 74px;
+    width: 100%;
+    max-width: 62em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.clients-photo img:last-child {
+    margin-top: 33px;
+}
+
+
+.footer-wrapper,
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.upper-footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: url('../images/footer-line.png') repeat-x;
+    background-position: center bottom;
+    padding-bottom: 11px;
+    margin-bottom: 11px;
+}
+
+.upper-footer li {
+    display: block;
+}
+
+.short-links {
+    float: left;
+}
+
+.footer h3 {
+    font-size: 9.3px;
+}
+
+.footer li {
+    font-size: 7px;
+    margin-bottom: 10px;
+}
+
+.short-links ul li a {
+    padding-left: 4px;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.short-links ul li:before {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 5px;
+    height: 5px;
+    transform: rotate(-45deg);
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.contact {
+    float: left;
+}
+
+.lower-footer {
+    font-size: 7px;
+}
+
+.footer-link {
+    float: left;
+}
+
+.design-by {
+    float: right;
 }
