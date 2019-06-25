@@ -484,6 +484,41 @@
         line-height: 40px;
     }
 
+    /* category */
+    .category {
+        margin: 42px auto 0px auto;
+    }
+
+    .category button {
+        font-size: 10px;
+    }
+
+    .tasks {
+        margin: 40px auto 0px auto;
+        width: 58.5282%;
+    }
+
+    .tasks li {
+        height: 293px;
+        width: 243px;
+    }
+
+    .info {
+        padding: 16px;
+    }
+
+    .title {
+        font-size: 25px;
+        line-height: 23px;
+    }
+
+    .task-category {
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    /* end category */
+
     .product-images {
         display: block;
     }
