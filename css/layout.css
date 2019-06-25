@@ -402,6 +402,9 @@ button {
     display: none;
 }
 
+.tasks li a:hover>.info {
+    display: block;
+}
 
 
 /* services  */
