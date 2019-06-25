@@ -699,12 +699,37 @@ button {
     margin-bottom: 11px;
 }
 
-.upper-footer li {
-    display: block;
+.upper-footer h3 {
+    margin-bottom: 23px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer-content {
+    width: 61.693548%;
+    margin: 0px auto;
+}
+
+.short-links li {
+    display: list-item;
 }
 
 .short-links {
     float: left;
+    width: 21.078431%;
+    margin-right: 4.5751633%;
+}
+
+.short-links h3 {
+    margin-left: -7px;
+}
+
+.main-links {
+    float: left;
+}
+
+.company-links {
+    float: right;
 }
 
 .footer h3 {
@@ -716,27 +741,19 @@ button {
     margin-bottom: 10px;
 }
 
-.short-links ul li a {
-    padding-left: 4px;
+.short-links ul {
+    list-style-image: url('../images/right-triangular-arrow.png');
 }
+
 
 .footer a {
     color: #ffffff;
 }
 
-.short-links ul li:before {
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
-    width: 5px;
-    height: 5px;
-    transform: rotate(-45deg);
-    content: "";
-    display: inline-block;
-    margin-right: 5px;
-}
-
 .contact {
     float: left;
+    width: 18.320261%;
+    margin-right:5.496732%
 }
 
 .lower-footer {
@@ -749,4 +766,68 @@ button {
 
 .design-by {
     float: right;
+}
+
+.contact li {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 14px;
+    background-size: 7px 7px;
+}
+
+.contact .location {
+    background-image: url('../images/location.png');
+    background-position: left top;
+}
+
+.mail {
+    background-image: url('../images/mail.png');
+}
+
+.phone {
+    background-image: url('../images/phone.png');
+}
+
+.globe {
+    background-image: url('../images/global.png');
+}
+
+.feedback {
+    float: left;
+    width: 22.875816%;
+    margin-right: 2.777777%;
+}
+
+.feedback input,
+.feedback textarea {
+    display: block;
+    border: 1px solid #454545;
+    background: transparent;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    font-size: 6px;
+    
+}
+
+.feedback button {
+    background-color: #ff5617;
+    border: 0px;
+    font-size: 7px;
+    line-height: 22px;
+    text-align: center;
+    width: 45px;
+    font-weight: bold;
+}
+
+.instagram-feed {
+    float: right;
+    width: 24.8562091%;
+}
+
+.instagram-feed img {
+    height: 32px;
+    width: 32px;
 }
