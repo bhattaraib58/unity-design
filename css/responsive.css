@@ -1,529 +1,738 @@
-.page-content {
-    margin: 0px auto;
-    width: 100%;
-    padding-left: 2.604166%;
-    padding-right: 2.604166%;
-    box-sizing: border-box;
-    max-width: 62em;
-}
-
-.social li:not(:last-child) {
-    margin-right: 8.753086%;
-}
-
-.line span {
-    line-height: 25px;
-}
-
-.topic {
-    font-size: 26px;
-}
-
-.headtopic {
-    height: 242px;
-}
-
-.watchvideo span {
-    font-size: 11px;
-}
-
-.product-images {
-    display: none;
-}
-
-.services-wrapper {
-    width: 100%;
-}
-
-.services h3,
-.services h3 span {
-    font-size: 17px;
-    line-height: 32px;
-}
-
-
-/* user review start */
-.user-review {
-    width: 70%;
-}
-
-.user-review h3 {
-    font-size: 22px;
-    line-height: 40px;
-}
-
-.user-review p {
-    font-size: 9px;
-    line-height: 15px;
-}
-
-.user-review .parenthesis {
-    font-size: 400px;
-    margin-top: 177px;
-    margin-bottom: -91px;
-}
-
-.slider {
-    width: 14%;
-}
-
-.indexes {
-    margin: 40px 0px;
-}
-
-.other-index {
-    font-size: 18px;
-}
-
-.slider .current-index {
-    font-size: 28px;
-}
-
-/* user review end */
-
-/* work performed */
-
-.work-performed h2 {
-    margin-top: 50px;
-    font-size: 25px;
-    line-height: 35px;
-}
-
-.work-performed p {
-    width: 85.782258%;
-    margin: 9px auto 0px auto;
-    font-size: 10px;
-    line-height: 17px;
-}
-
-/* work performed end */
-
-/* category  */
-.category {
-    margin: 15px auto 0px auto;
-}
-
-.category button {
-    font-size: 7px;
-}
-
-.tasks {
-    margin: 20px auto 0px auto;
-    width: 90%;
-}
-
-.info {
-    padding: 10px;
-}
-
-.tasks li {
-    height: 200px;
-    width: 45%;
-}
-
-.title {
-    font-size: 12px;
-    line-height: 14px;
-}
-
-.task-category {
-    font-size: 5px;
-    line-height: 7px;
-}
-
-/* category end */
-
-/* services performed */
-.services-performed h2 {
-    margin-top: 40px;
-    font-size: 25px;
-    line-height: 35px;
-}
-
-.services-performed p {
-    width: 90%;
-    margin-top: 9px;
-    margin-bottom: 20px;
-    font-size: 9px;
-    line-height: 16px;
-}
-
-.services-list {
-    margin: 30px auto 0px auto;
-}
-
-.services-list li {
-    width: 48%;
-    padding: 15px;
-    height: 180px;
-}
-
-.services-list li h3 {
-    font-size: 15px;
-}
-
-.services-list li p {
-    font-size: 6px;
-    line-height: 10px;
-    margin: 9px auto 0px auto;
-    width: 100%;
-}
-
-/*end  services performed */
-
-.intro-wrapper {
-    display: none;
-}
-
-.clients-testomonials h2 {
-    margin-top: 30px;
-    font-size: 25px;
-    line-height: 35px;
-}
-
-.clients-testomonials p {
-    width: 90%;
-    margin-bottom: 20px;
-    font-size: 9px;
-    line-height: 15px;
-}
-
-.clients {
-    margin-top: 15px;
-}
-
-.clients-testomonials .client-reviews p {
-    font-size: 12px;
-}
-
-.clients-photo {
-    margin-top: 30px;
-}
-
-.clients-photo img:last-child {
-    margin-top: 8px;
-}
-
-.upper-footer {
-    margin-top: 20px;
-    padding-top: 20px;
-}
-
-.footer-content {
-    width: 80%;
-}
-
-.feedback {
-    display: none;
-}
-
-.instagram-feed {
-    display: none;
-}
-
-.short-links {
-    width: 50%;
-}
-
-.contact {
-    width: 38%;
+.test {
+  height: 5000px;
+  width: 100%;
+  background-color: aqua;
 }
 
 @media (min-width:768px) {
-    .logo-wrap {
-        width: 92.604168%;
-    }
 
-    .menu {
-        width: 4.239583%;
-    }
+  h3,
+  .services-info h3 span {
+    font-size: 2.1875rem;
+    line-height: 2.8125rem;
+  }
 
-    .social li:not(:last-child) {
-        margin-right: 19.753086%;
-    }
+  p {
+    font-size: 0.9375rem;
+    line-height: 1.6rem;
+  }
 
-    .line span {
-        line-height: 40px;
-    }
+  /* header */
+  .social a {
+    width: 1rem;
+  }
 
-    .topic {
-        font-size: 52px;
-    }
+  .social a:not(:last-child) {
+    margin-right: 15px;
+  }
 
-    .headtopic {
-        height: 526px;
-    }
+  /* end header */
 
-    .watchvideo span {
-        font-size: 16px;
-    }
+  /* discover start */
+  .headtopic {
+    height: 500px;
+  }
 
-    .services h3,
-    .services h3 span {
-        font-size: 36px;
-        line-height: 46px;
-    }
+  .topic {
+    font-size: 50px;
+  }
 
-    .services p {
-        font-size: 17px;
-    }
+  .watchvideo span {
+    padding-left: 30px;
+    line-height: 25px;
+    font-size: 15px;
+  }
 
-    .user-review {
-        width: 45.060483%;
-    }
+  .discover button {
+    padding: 5px;
+    font-size: 12px;
+  }
 
-    .user-review h3 {
-        font-size: 36px;
-        line-height: 60px;
-    }
+  /* discover end */
 
+  /* service start */
+  .services {
+    margin-top: 70px;
+    margin-bottom: 120px;
+  }
 
-    .user-review p {
-        font-size: 13px;
-        line-height: 20px;
-    }
+  .services-container {
+    width: 100%;
+    padding-left: 0%;
+  }
 
-    .user-review .parenthesis {
-        font-size: 568px;
-        margin-top: 254px;
-        margin-bottom: -122px;
-    }
+  .services-info span {
+    font-size: 15px;
+  }
 
-    .other-index {
-        font-size: 26px;
-    }
+  .button-indicators {
+    margin-top: 20px;
+  }
 
-    .slider {
-        width: 7.0564516%;
-    }
+  .button-indicators button {
+    width: 40px;
+    height: 40px;
+  }
 
-    .slider .current-index {
-        font-size: 52px;
-    }
+  /* service end */
 
-    .indexes {
-        margin: 60px 0px;
-    }
+  /* user testomonila start */
+  .indexes {
+    margin: 50px 0;
+  }
 
+  /* user must use margin in '-' minus cause the parenthesis font has default 
+    height for full font and we only need link half of font size of parenthesis */
+  .user-review .parenthesis {
+    font-size: 700px;
+    margin-top: 307px;
+    margin-bottom: -163px;
+  }
 
-    /* work performed */
+  .user-review {
+    width: 75.12087%;
+    margin-left: 8.3669354%;
+  }
 
-    .work-performed h2 {
-        margin-top: 100px;
-        font-size: 36px;
-        line-height: 45px;
-    }
+  .slider {
+    width: 10.0564516%;
+  }
 
-    .work-performed p {
-        width: 47.782258%;
-        margin: 18px auto 0px auto;
-        font-size: 11px;
-        line-height: 21px;
-    }
+  .other-index {
+    font-size: 20px;
+  }
 
-    /* end work performed */
+  .slider .current-index {
+    font-size: 40px;
+  }
 
-    /* category */
-    .category {
-        margin: 42px auto 0px auto;
-    }
-
-    .category button {
-        font-size: 12px;
-    }
-
-    .tasks {
-        margin: 40px auto 0px auto;
-        width: 90.5282%;
-    }
-
-    .tasks li {
-        height: 293px;
-        width: 243px;
-    }
-
-    .info {
-        padding: 16px;
-    }
-
-    .title {
-        font-size: 25px;
-        line-height: 23px;
-    }
-
-    .task-category {
-        font-size: 8px;
-        line-height: 16px;
-    }
-
-    /* end category */
-
-    /* services performed */
-    .services-performed h2 {
-        margin-top: 124px;
-        font-size: 36px;
-        line-height: 45px;
-    }
-
-    .services-performed p {
-        width: 47.782258%;
-        margin-top: 9px;
-        margin-bottom: 40px;
-        font-size: 13px;
-        line-height: 24px;
-    }
-
-    .services-list {
-        margin: 50px auto 0px auto;
-    }
-
-    .services-list li {
-        padding: 25px;
-        width: 25.947581%;
-        height: 228px;
-    }
-
-    .services-list li h3 {
-        font-size: 20px;
-    }
-
-    .services-list li p {
-        font-size: 8px;
-        line-height: 15px;
-        margin: 18px auto 0px auto;
-        width: 100%;
-    }
-
-    /*end  services performed */
+  /* user testomonila end */
 
 
-    /* intro wrapper */
+  /* work performed start */
+  .work-performed {
+    margin-top: 80px;
+  }
 
-    .intro-wrapper {
-        display: block;
-    }
+  .work-performed h3,
+  .work-performed p {
+    width: 60%;
+  }
 
-    /*end intro wrapper */
+  .category button {
+    font-size: 12px;
+    padding-left: 10px;
+  }
 
-    .clients-testomonials h2 {
-        margin-top: 124px;
-        font-size: 36px;
-        line-height: 45px;
-    }
+  .tasks {
+    width: 60%;
+    margin-top: 50px;
+  }
 
-    .clients-testomonials p {
-        width: 47.782258%;
-        margin-bottom: 40px;
-        font-size: 13px;
-        line-height: 24px;
-    }
+  .tasks li {
+    height: 325px;
+  }
 
-    .clients-testomonials .client-reviews p {
-        font-size: 19px;
-    }
+  .info {
+    height: 30%;
+    padding: 5px;
+  }
 
-    .client-name {
-        font-size: 15px;
-        line-height: 16px;
-    }
+  .tasks li:nth-child(odd) .info {
+    left: -52px;
+  }
 
-    .client-office a {
-        font-size: 10px;
-    }
+  .tasks li:nth-child(even) .info {
+    right: -52px;
+  }
 
-    .clients {
-        margin-top: 37px;
-    }
+  .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
 
-    .clients-photo {
-        margin-top: 74px;
-    }
+  .task-category {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 16px;
+  }
 
-    .clients-photo img:last-child {
-        margin-top: 33px;
-    }
+  /* work performed end */
 
-    .upper-footer {
-        margin-top: 40px;
-        padding-top: 40px;
-    }
+  /* services performed start*/
 
-    .footer-content {
-        /* width: 80.693548%; */
-    }
+  .services-performed {
+    margin-top: 70px;
+  }
 
-    .footer-content {
-        width: 61.693548%;
-    }
+  .services-performed h3,
+  .services-performed>p {
+    width: 59.94505%;
+  }
+
+  .services-list li {
+    height: 300px;
+  }
+
+  .services-list li h4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .services-list li p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* services performed end*/
+
+  /* intro wrapper start*/
+  .video-control {
+    font-size: 12px;
+  }
+
+  .video-control button {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* intro wrapper end*/
 
 
-    .short-links {
-        width: 21.078431%;
-    }
+  /* clients testomonials start */
+  .clients-testomonials h3 {
+    margin-top: 60px;
+  }
 
-    .contact {
-        width: 18.320261%;
-    }
+  .clients-testomonials>p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
-    .feedback {
-        display: block;
-    }
+  .client-reviews {
+    margin-top: 40px;
+  }
 
-    .instagram-feed {
-        display: block;
-    }
+  .client-reviews>p {
+    font-size: 20px;
+  }
 
+  .client-info {
+    margin-top: 40px;
+  }
+
+  .client-name {
+    font-size: 15px;
+  }
+
+  .client-office {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+
+  .clients {
+    margin-top: 40px;
+  }
+
+  .clients button img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .clients .active img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .clients li:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .clients .active {
+    margin-right: 22px;
+  }
+
+  .clients-user li {
+    height: 80px;
+  }
+
+  /* clients testomonials end */
+
+  /* footer start */
+  .footer {
+    margin-top: 80px;
+    padding-top: 85px;
+  }
+
+  .upper-footer h4 {
+    margin-bottom: 23px;
+    font-size: 18px;
+  }
+
+  .footer li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .short-links {
+    width: 21.09704%;
+  }
+
+  .instagram-feed {
+    display: block;
+  }
+
+  .contact {
+    float: left;
+    width: 17.721518%;
+  }
+
+  .contact li {
+    padding-left: 28px;
+    background-size: 15px 15px;
+  }
+
+  .feedback {
+    display: block;
+  }
+
+  .feedback input,
+  .feedback textarea {
+    font-size: 12px;
+  }
+
+  .feedback button {
+    font-size: 14px;
+    line-height: 42px;
+    padding: 0px 20px;
+  }
+
+  .lower-footer {
+    font-size: 14px;
+    line-height: 101px;
+  }
+
+  .design-by {
+    display: block;
+  }
+
+  /* footer end */
 }
 
-@media (min-width:968px) {
-    .social li:not(:last-child) {
-        margin-right: 19.753086%;
-    }
+@media (min-width:992px) {
 
-    .line span {
-        line-height: 40px;
-    }
+  h3,
+  .services-info h3 span {
+    font-size: 3.125rem;
+    line-height: 4.0625rem;
+  }
 
-    /* category */
-    .category {
-        margin: 42px auto 0px auto;
-    }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
 
-    .category button {
-        font-size: 10px;
-    }
+  /* header */
+  .header {
+    box-shadow: none;
+  }
 
-    .tasks {
-        margin: 40px auto 0px auto;
-        width: 64.5282%;
-    }
+  .social a {
+    width: 1.5rem;
+  }
 
-    .tasks li {
-        height: 293px;
-        width: 243px;
-    }
+  .main-nav li a {
+    font-size: 0.9375rem;
+  }
 
-    .info {
-        padding: 16px;
-    }
+  /* end header */
 
-    .title {
-        font-size: 25px;
-        line-height: 23px;
-    }
+  /* discover start */
+  .headtopic {
+    height: 700px;
+  }
 
-    .task-category {
-        font-size: 8px;
-        line-height: 16px;
-    }
+  .line {
+    line-height: 80px;
+  }
 
-    /* end category */
+  .topic {
+    font-size: 70px;
+  }
 
-    .product-images {
-        display: block;
-    }
+  .watchvideo span {
+    padding-left: 40px;
+    line-height: 32px;
+    font-size: 20px;
+  }
 
-    .services-wrapper {
-        width: 52.371342%;
-    }
+  .discover button {
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  /* discover end */
+
+  /* service start */
+  .services {
+    margin-top: 70px;
+    margin-bottom: 120px;
+  }
+
+  .services-container {
+    width: 45.10125889%;
+    padding-left: 0%;
+  }
+
+  .services-info span {
+    font-size: 18px;
+  }
+
+  .product-images {
+    width: 45.046524%;
+    top: -145px;
+    height: 293px;
+    display: block;
+  }
+
+  .product {
+    top: -180px;
+    right: 10.14150943%;
+  }
+
+  /* service end */
+
+  /* user testomonila start */
+  .indexes {
+    margin: 70px 0;
+  }
+
+  /* user must use margin in '-' minus cause the parenthesis font has default 
+    height for full font and we only need link half of font size of parenthesis */
+  .user-review .parenthesis {
+    font-size: 900px;
+    margin-top: 402px;
+    margin-bottom: -209px;
+  }
+
+  .user-review {
+    width: 75.12087%;
+  }
+
+  .slider {
+    width: 10.0564516%;
+  }
+
+  .other-index {
+    font-size: 30px;
+  }
+
+  .slider .current-index {
+    font-size: 60px;
+  }
+
+  /* user testomonila end */
+
+  /* work performed start */
+  .work-performed {
+    margin-top: 130px;
+  }
+
+  .tasks li {
+    height: 400px;
+  }
+
+  .info {
+    height: 40%;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 50px;
+    line-height: 40px;
+  }
+
+  .task-category {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  /* work performed end */
+
+
+  /* clients testomonials start */
+  .client-reviews>p {
+    font-size: 25px;
+  }
+
+  .client-name {
+    font-size: 18px;
+  }
+
+  .client-office {
+    font-size: 16px;
+  }
+
+  .clients-user li {
+    height: 100px;
+  }
+
+  /* clients testomonials end */
+}
+
+@media (min-width:1200px) {
+
+  h3,
+  .services-info h3 span {
+    font-size: 4.375rem;
+    line-height: 5.5rem;
+  }
+
+  p {
+    font-size: 1.375rem;
+    line-height: 2.5rem;
+  }
+
+  /* header */
+  .main-nav li a {
+    font-size: 20px;
+  }
+
+  /* end header */
+
+  /* discover start */
+  .headtopic {
+    height: 900px;
+  }
+
+  .topic {
+    font-size: 100px;
+  }
+
+  .discover button {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  /* discover end */
+
+
+  /* service start */
+  .services {
+    margin-top: 90px;
+    margin-bottom: 151px;
+  }
+
+  .services-container {
+    width: 45.10125889%;
+    padding-left: 8.92172961%;
+  }
+
+  .services-info span {
+    font-size: 24px;
+  }
+
+  .button-indicators {
+    margin-top: 26px;
+  }
+
+  .button-indicators button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-images {
+    width: 45.046524%;
+    top: -288px;
+    height: 600px;
+  }
+
+  .product {
+    top: -180px;
+    right: 10.14150943%;
+  }
+
+  /* service end */
+
+  /* user testomonila start */
+  .user-review {
+    width: 39.12087%;
+  }
+
+  /* user must use margin in '-' minus cause the parenthesis font has default 
+    height for full font and we only need link half of font size of parenthesis */
+  .user-review .parenthesis {
+    font-size: 1100px;
+    margin-top: 500px;
+    margin-bottom: -257px;
+  }
+
+  .slider {
+    width: 14.0564516%;
+  }
+
+  .other-index {
+    font-size: 50px;
+  }
+
+  .slider .current-index {
+    font-size: 100px;
+  }
+
+  /* user testomonila end */
+
+
+  /* work performed start */
+  .work-performed {
+    margin-top: 195px;
+  }
+
+  .work-performed h3,
+  .work-performed p {
+    width: 51.538461%;
+  }
+
+  .category button {
+    font-size: 14px;
+    padding-left: 12px;
+  }
+
+  .tasks {
+    width: 54.945054%;
+    margin-top: 80px;
+  }
+
+  .tasks li {
+    width: 48%;
+    height: 570px;
+  }
+
+  .tasks li {
+    height: 400px;
+  }
+
+  .info {
+    height: 40%;
+    padding: 25px;
+  }
+
+  .title {
+    font-size: 80px;
+    line-height: 70px;
+  }
+
+  .task-category {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /* work performed end */
+
+
+  /* services performed start */
+  .services-performed {
+    margin-top: 263px;
+  }
+
+  .services-performed>p {
+    margin-top: 9px;
+    margin-bottom: 40px;
+  }
+
+  .services-list {
+    margin-top: 100px;
+  }
+
+  .services-list li {
+    width: 33%;
+    padding: 25px;
+    height: 440px;
+  }
+
+  .services-list li h4 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 30px;
+  }
+
+  .services-list li p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  /* services performed end */
+
+
+  /* intro wrapper start*/
+  .video-control {
+    font-size: 20px;
+  }
+
+  .video-control button {
+    width: 90px;
+    height: 90px;
+  }
+
+  /* intro wrapper end*/
+
+  /* clients testomonials start */
+  .clients-testomonials {
+    width: 49.01098%;
+  }
+
+  .clients-testomonials h3 {
+    margin-top: 140px;
+  }
+
+  .clients-testomonials>p {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .client-reviews {
+    margin-top: 80px;
+  }
+
+  .client-reviews>p {
+    font-size: 36px;
+  }
+
+  .client-info {
+    margin-top: 66px;
+  }
+
+  .client-name {
+    font-size: 18px;
+  }
+
+  .client-office {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+
+  .clients {
+    margin-top: 70px;
+  }
+
+  .clients-user li {
+    height: 140px;
+  }
+
+  /* clients testomonials end */
+
+  /* footer start */
+  .footer-content {
+    width: 65.384615%;
+    padding: 0px;
+  }
+
+  .company-links {
+    display: block;
+  }
+
+  /* footer end */
 }
