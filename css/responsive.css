@@ -4,22 +4,21 @@
   background-color: aqua;
 }
 
-@media (min-width:768px) {
-
+@media (min-width: 768px) {
   h3,
   .services-info h3 span {
-    font-size: 2.1875rem;
-    line-height: 2.8125rem;
+    font-size: 35px;
+    line-height: 45px;
   }
 
   p {
-    font-size: 0.9375rem;
-    line-height: 1.6rem;
+    font-size: 15px;
+    line-height: 25px;
   }
 
   /* header */
   .social a {
-    width: 1rem;
+    width: 16px;
   }
 
   .social a:not(:last-child) {
@@ -37,7 +36,7 @@
     font-size: 50px;
   }
 
-  .watchvideo span {
+  .watchvideo a {
     padding-left: 30px;
     line-height: 25px;
     font-size: 15px;
@@ -108,7 +107,6 @@
 
   /* user testomonila end */
 
-
   /* work performed start */
   .work-performed {
     margin-top: 80px;
@@ -166,7 +164,7 @@
   }
 
   .services-performed h3,
-  .services-performed>p {
+  .services-performed > p {
     width: 59.94505%;
   }
 
@@ -198,13 +196,12 @@
 
   /* intro wrapper end*/
 
-
   /* clients testomonials start */
   .clients-testomonials h3 {
     margin-top: 60px;
   }
 
-  .clients-testomonials>p {
+  .clients-testomonials > p {
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -213,7 +210,7 @@
     margin-top: 40px;
   }
 
-  .client-reviews>p {
+  .client-reviews > p {
     font-size: 20px;
   }
 
@@ -257,6 +254,13 @@
   }
 
   /* clients testomonials end */
+  .clients-photo {
+    margin-top: 80px;
+  }
+
+  .client-companies {
+    margin-top: 40px;
+  }
 
   /* footer start */
   .footer {
@@ -312,6 +316,10 @@
     line-height: 101px;
   }
 
+  .footer-link li a {
+    margin-left: 10px;
+  }
+
   .design-by {
     display: block;
   }
@@ -319,17 +327,16 @@
   /* footer end */
 }
 
-@media (min-width:992px) {
-
+@media (min-width: 992px) {
   h3,
   .services-info h3 span {
-    font-size: 3.125rem;
-    line-height: 4.0625rem;
+    font-size: 50px;
+    line-height: 65px;
   }
 
   p {
-    font-size: 1.125rem;
-    line-height: 1.875rem;
+    font-size: 18px;
+    line-height: 30px;
   }
 
   /* header */
@@ -338,11 +345,11 @@
   }
 
   .social a {
-    width: 1.5rem;
+    width: 24px;
   }
 
   .main-nav li a {
-    font-size: 0.9375rem;
+    font-size: 15px;
   }
 
   /* end header */
@@ -360,7 +367,7 @@
     font-size: 70px;
   }
 
-  .watchvideo span {
+  .watchvideo a {
     padding-left: 40px;
     line-height: 32px;
     font-size: 20px;
@@ -460,9 +467,8 @@
 
   /* work performed end */
 
-
   /* clients testomonials start */
-  .client-reviews>p {
+  .client-reviews > p {
     font-size: 25px;
   }
 
@@ -479,19 +485,26 @@
   }
 
   /* clients testomonials end */
+
+  .clients-photo {
+    margin-top: 100px;
+  }
+
+  .client-companies {
+    margin-top: 50px;
+  }
 }
 
-@media (min-width:1200px) {
-
+@media (min-width: 1200px) {
   h3,
   .services-info h3 span {
-    font-size: 4.375rem;
-    line-height: 5.5rem;
+    font-size: 70px;
+    line-height: 88px;
   }
 
   p {
-    font-size: 1.375rem;
-    line-height: 2.5rem;
+    font-size: 18px;
+    line-height: 40px;
   }
 
   /* header */
@@ -516,7 +529,6 @@
   }
 
   /* discover end */
-
 
   /* service start */
   .services {
@@ -582,7 +594,6 @@
 
   /* user testomonila end */
 
-
   /* work performed start */
   .work-performed {
     margin-top: 195px;
@@ -630,13 +641,12 @@
 
   /* work performed end */
 
-
   /* services performed start */
   .services-performed {
     margin-top: 263px;
   }
 
-  .services-performed>p {
+  .services-performed > p {
     margin-top: 9px;
     margin-bottom: 40px;
   }
@@ -666,7 +676,6 @@
 
   /* services performed end */
 
-
   /* intro wrapper start*/
   .video-control {
     font-size: 20px;
@@ -688,7 +697,7 @@
     margin-top: 140px;
   }
 
-  .clients-testomonials>p {
+  .clients-testomonials > p {
     margin-top: 40px;
     margin-bottom: 60px;
   }
@@ -697,7 +706,7 @@
     margin-top: 80px;
   }
 
-  .client-reviews>p {
+  .client-reviews > p {
     font-size: 36px;
   }
 
@@ -723,6 +732,14 @@
   }
 
   /* clients testomonials end */
+
+  .clients-photo {
+    margin-top: 150px;
+  }
+
+  .client-companies {
+    margin-top: 70px;
+  }
 
   /* footer start */
   .footer-content {

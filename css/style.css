@@ -2,7 +2,7 @@ li,
 a,
 span,
 div {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 li {
@@ -22,14 +22,14 @@ button {
 
 h3,
 .services-info h3 span {
-  font-size: 1.5625rem;
-  line-height: 1.875rem;
+  font-size: 25px;
+  line-height: 30px;
   font-weight: bolder;
 }
 
 p {
-  font-size: 0.75rem;
-  line-height: 1.5625rem;
+  font-size: 12px;
+  line-height: 25px;
 }
 
 .clearfix::after {
@@ -56,7 +56,7 @@ p {
   background-color: #ffffff;
   padding-top: 4.791666%;
   padding-bottom: 1%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   position: relative;
 }
 
@@ -86,7 +86,7 @@ p {
 .social a {
   color: #fff;
   display: inline-block;
-  width: 0.5rem;
+  width: 8px;
 }
 
 .social a:not(:last-child) {
@@ -104,6 +104,10 @@ p {
   background: transparent;
 }
 
+.nav-bar-toggler:hover {
+  background: #ececec;
+}
+
 .nav-bar-toggler img {
   width: 80%;
   height: auto;
@@ -116,20 +120,21 @@ p {
   left: 0%;
   width: 100%;
   display: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 .main-nav li {
-  background-color: #ffffff;
   display: block;
   padding-left: 20px;
 }
-
 
 .main-nav li a {
   font-weight: bold;
   display: block;
   padding: 12px 24px;
-  font-size: 0.625rem;
+  font-size: 10px;
+  text-align: center;
 }
 
 .main-nav li a:hover,
@@ -139,8 +144,6 @@ p {
 
 /*end of nav*/
 /* end of header */
-
-
 
 /* discover start */
 .headtopic-wrapper {
@@ -168,7 +171,10 @@ p {
 .headtopic h2 {
   margin-top: 6.354166%;
   text-align: center;
-  font-size: 1.25rem;
+}
+
+.topic {
+  font-size: 20px;
 }
 
 .watchvideo {
@@ -176,13 +182,17 @@ p {
   text-align: center;
 }
 
-.watchvideo span {
+.watchvideo a {
   padding-left: 30px;
-  line-height: 0.9375rem;
-  font-size: 0.6875rem;
+  line-height: 15px;
+  font-size: 11px;
   background-image: url("../images/discover/play-button.svg");
   background-repeat: no-repeat;
   background-position: left center;
+}
+
+.watchvideo a:hover {
+  font-weight: bold;
 }
 
 .discover {
@@ -195,14 +205,22 @@ p {
   border: none;
   border-radius: 50px;
   padding: 5px;
-  font-size: 0.5625rem;
+  font-size: 9px;
   white-space: nowrap;
   width: 10.824175%;
   min-width: 62px;
+  color: #ffffff;
+}
+
+.discover button:hover {
+  background-color: #f8652f;
+}
+
+.discover button:active {
+  background-color: #f54403;
 }
 
 /* end discover */
-
 
 /* services start */
 .services-wrapper {
@@ -224,7 +242,7 @@ p {
 }
 
 .services-info span {
-  font-size: 0.75rem;
+  font-size: 12px;
 }
 
 .services-info h3 span {
@@ -241,7 +259,7 @@ p {
 
 .button-indicators button {
   border-radius: 50%;
-  font-size: 1rem;
+  font-size: 16px;
   text-align: center;
   width: 30px;
   height: 30px;
@@ -251,10 +269,25 @@ p {
   color: black;
 }
 
+.button-indicators button:hover {
+  background-color: rgb(240, 234, 234);
+}
+.button-indicators button:active {
+  background-color: rgb(224, 224, 224);
+}
+
 .button-indicators .active {
   background-color: #ff5617;
   border: 1px solid #ff5617;
   color: white;
+}
+
+.button-indicators .active:hover {
+  background-color: #ff4400;
+}
+
+.button-indicators .active:active {
+  background-color: #d63d05;
 }
 
 .product-images {
@@ -304,19 +337,32 @@ p {
   background-color: #2c3da7;
   float: left;
 }
+.arrows .left-arrow:hover {
+  background-color: #0620c9;
+}
+.arrows .left-arrow:active {
+  background-color: #0022ff;
+}
 
 .arrows .right-arrow {
   background-color: #ffffff;
   float: right;
 }
 
-/* services end */
+.arrows .right-arrow:hover {
+  background-color: rgb(240, 234, 234);
+}
+.arrows .right-arrow:active {
+  background-color: rgb(224, 224, 224);
+}
 
+/* services end */
 
 /* user testomonila start */
 
 .user-testomonial-wrapper {
-  background: url("../images/user-testomonial/user-testomonial-background.png") no-repeat;
+  background: url("../images/user-testomonial/user-testomonial-background.png")
+    no-repeat;
   background-position: top;
   background-size: cover;
 }
@@ -409,13 +455,16 @@ p {
   font-size: 10px;
 }
 
+.other-index:hover {
+  opacity: 0.8;
+}
+
 .slider .current-index {
   opacity: 1;
   font-size: 20px;
 }
 
 /* user testomonila end */
-
 
 /* work performed start */
 .work-performed-wrapper,
@@ -445,7 +494,7 @@ p {
   font-size: 9px;
   color: #999999;
   padding-bottom: 7px;
-  padding-left: 7px;
+  padding: 0 12px 12px 8px;
 }
 
 .category .active {
@@ -455,9 +504,12 @@ p {
 .category .active,
 .category button:active {
   color: #000000;
-  background-image: url("../images/sign-line.png");
+  background-image: url("../images/category-line.png");
   background-repeat: repeat-x;
   background-position: left bottom;
+}
+.category button:hover {
+  color: #000000;
 }
 
 .category li {
@@ -536,13 +588,11 @@ p {
   line-height: 15px;
 }
 
-.tasks li a:hover>.info {
+.tasks li a:hover > .info {
   display: block;
 }
 
 /* work performed end */
-
-
 
 /* services  start*/
 .services-performed-wrapper,
@@ -556,12 +606,12 @@ p {
 }
 
 .services-performed h3,
-.services-performed>p {
+.services-performed > p {
   margin: 0px auto;
   width: 100%;
 }
 
-.services-performed>p {
+.services-performed > p {
   margin-top: 9px;
   margin-bottom: 20px;
 }
@@ -573,10 +623,11 @@ p {
 .services-list li {
   border: 1px solid #ececec;
   box-sizing: border-box;
-  vertical-align: top;
   width: 48%;
   padding: 5px;
   height: 240px;
+  display: block;
+  float: left;
 }
 
 .services-list li img {
@@ -599,7 +650,7 @@ p {
 }
 
 .services-list li:hover,
-.services-list li:hover>a {
+.services-list li:hover > a {
   background-color: #2c3da7;
   color: #ffffff;
 }
@@ -642,8 +693,8 @@ p {
   font-size: 8px;
   position: absolute;
   z-index: 10;
-  left: 7%;
-  top: 7%;
+  left: 12%;
+  top: 12%;
 }
 
 .video-control button {
@@ -655,14 +706,11 @@ p {
 }
 
 .video-control img {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
 }
 
 /* intro wrapper end*/
-
-
-
 
 /* clients testomonials start */
 .clients-testomonials-wrapper,
@@ -677,7 +725,7 @@ p {
 }
 
 .clients-testomonials h3,
-.clients-testomonials>p {
+.clients-testomonials > p {
   margin: 0px auto;
 }
 
@@ -685,7 +733,7 @@ p {
   margin-top: 40px;
 }
 
-.clients-testomonials>p {
+.clients-testomonials > p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -694,7 +742,7 @@ p {
   margin-top: 30px;
 }
 
-.client-reviews>p {
+.client-reviews > p {
   font-size: 16px;
 }
 
@@ -718,6 +766,10 @@ p {
   color: #2c3da7;
 }
 
+.client-office a:hover {
+  font-weight: bold;
+}
+
 .clients {
   margin-top: 30px;
 }
@@ -725,6 +777,10 @@ p {
 .clients li {
   vertical-align: middle;
   opacity: 0.5;
+}
+
+.clients li:hover {
+  opacity: 0.7;
 }
 
 .clients button {
@@ -742,7 +798,8 @@ p {
   margin-right: 5px;
 }
 
-.clients .active {
+.clients .active,
+.clients .active:hover {
   opacity: 1;
   margin-right: 10px;
 }
@@ -759,7 +816,8 @@ p {
 }
 
 .clients-photo {
-  margin-top: 150px;
+  margin-top: 60px;
+  padding: 0;
 }
 
 .clients-user li {
@@ -774,6 +832,12 @@ p {
   height: 100%;
 }
 
+.client-companies {
+  margin-top: 30px;
+}
+
+
+
 .client-companies ul {
   margin: 0 auto;
   text-align: center;
@@ -785,10 +849,6 @@ p {
 }
 
 /* clients testomonials end */
-
-
-
-
 
 /* footer start */
 .footer-wrapper,
@@ -806,15 +866,18 @@ p {
   color: #ffffff;
 }
 
+.footer a:hover {
+  color: #ffffffaf;
+}
+
 .footer-content {
   margin: 0px auto;
   padding: 0px 10px;
 }
 
-
 /* upper footer start */
 .upper-footer {
-  background: url('../images/footer/footer-line.png') repeat-x;
+  background: url("../images/footer/footer-line.png") repeat-x;
   background-position: center bottom;
   padding-bottom: 11px;
 }
@@ -833,7 +896,7 @@ p {
 
 /* short link start */
 .short-links ul {
-  list-style-image: url('../images/right-triangular-arrow.png');
+  list-style-image: url("../images/right-triangular-arrow.png");
 }
 
 .short-links li {
@@ -845,7 +908,6 @@ p {
   width: 40%;
   margin-right: 4.5751633%;
 }
-
 
 /* as the li tag list is before the text we must use '-' minus */
 .short-links h4 {
@@ -863,7 +925,6 @@ p {
 
 /* short link end */
 
-
 /* contact start */
 .contact {
   float: right;
@@ -880,20 +941,20 @@ p {
 }
 
 .contact .location {
-  background-image: url('../images/footer/location.svg');
+  background-image: url("../images/footer/location.svg");
   background-position: left top;
 }
 
 .mail {
-  background-image: url('../images/footer/mail.svg');
+  background-image: url("../images/footer/mail.svg");
 }
 
 .phone {
-  background-image: url('../images/footer/call-answer.svg');
+  background-image: url("../images/footer/call-answer.svg");
 }
 
 .globe {
-  background-image: url('../images/footer/earth.svg');
+  background-image: url("../images/footer/earth.svg");
 }
 /* contact end */
 
@@ -932,16 +993,15 @@ p {
   float: right;
   width: 23.628691%;
 }
-.instagram-feed ul li{
+.instagram-feed ul li {
   width: 23%;
 }
 
 .instagram-feed img {
-  width:100%;
+  width: 100%;
   height: auto;
 }
 /* upper header end */
-
 
 /* loweer header start */
 .lower-footer {
