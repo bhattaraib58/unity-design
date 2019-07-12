@@ -619,6 +619,7 @@ p,q {
 
 .services-list {
   margin-top: 30px;
+  padding: 0px;
 }
 
 .services-list li {
@@ -696,7 +697,7 @@ p,q {
 }
 
 .video-control {
-  width: 22%;
+  width: 25%;
   font-size: 8px;
   position: absolute;
   z-index: 10;
@@ -852,8 +853,6 @@ p,q {
   margin-top: 30px;
 }
 
-
-
 .client-companies ul {
   margin: 0 auto;
   text-align: center;
@@ -862,6 +861,12 @@ p,q {
 
 .client-companies li {
   margin-right: 4px;
+}
+
+.client-companies ul li img{
+  height: auto;
+  width: 100%;
+  max-width:40px;
 }
 
 /* clients testomonials end */

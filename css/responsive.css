@@ -262,6 +262,10 @@
     margin-top: 40px;
   }
 
+  .client-companies ul li img{
+    max-width:60px;
+  }
+
   /* footer start */
   .footer {
     margin-top: 80px;
@@ -412,6 +416,10 @@
   /* user testomonila start */
   .indexes {
     margin: 70px 0;
+  }
+
+  .client-companies ul li img{
+    max-width:80px;
   }
 
   /* user must use margin in '-' minus cause the parenthesis font has default 
@@ -732,6 +740,10 @@
   }
 
   /* clients testomonials end */
+
+.client-companies ul li img{
+  max-width:115px;
+}
 
   .clients-photo {
     margin-top: 150px;
