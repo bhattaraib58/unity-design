@@ -689,7 +689,7 @@ p {
 }
 
 .video-control {
-  width: 35.415662%;
+  width: 22%;
   font-size: 8px;
   position: absolute;
   z-index: 10;
@@ -703,11 +703,20 @@ p {
   border-radius: 50%;
   width: 30px;
   height: 30px;
+  vertical-align: middle;
 }
 
 .video-control img {
   width: 20%;
   height: 20%;
+}
+
+.video-control span
+{
+  width: 60%;
+  display: inline-block;
+  word-break: break-word;
+  vertical-align: middle;
 }
 
 /* intro wrapper end*/
