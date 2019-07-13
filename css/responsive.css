@@ -1,22 +1,30 @@
-.test {
-  height: 5000px;
-  width: 100%;
-  background-color: aqua;
-}
-
 @media (min-width: 768px) {
+  .page-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   h3,
   .services-info h3 span {
     font-size: 35px;
     line-height: 45px;
   }
 
-  p,q {
+  p,
+  q {
     font-size: 15px;
     line-height: 25px;
   }
 
   /* header */
+  .header {
+    margin-top: 60px;
+  }
+
+  .social {
+    margin-top: 40px;
+  }
+
   .social a {
     width: 16px;
   }
@@ -43,7 +51,7 @@
   }
 
   .discover button {
-    padding: 5px;
+    padding: 10px;
     font-size: 12px;
   }
 
@@ -168,6 +176,12 @@
     width: 59.94505%;
   }
 
+  .services-performed .topic-info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 51.536772%;
+  }
+
   .services-list li {
     height: 300px;
   }
@@ -210,7 +224,7 @@
     margin-top: 40px;
   }
 
-  .client-reviews > p {
+  .client-reviews li q {
     font-size: 20px;
   }
 
@@ -261,9 +275,13 @@
   .client-companies {
     margin-top: 40px;
   }
+  .client-companies .small-logo-client-companies a img {
+    height: 30px;
+    width: auto;
+  }
 
-  .client-companies ul li img{
-    max-width:60px;
+  .client-companies ul li img {
+    max-width: 60px;
   }
 
   /* footer start */
@@ -283,7 +301,9 @@
   }
 
   .short-links {
-    width: 21.09704%;
+    width: 15.742489%;
+    margin-right: 4.72103%;
+    margin-left: 0;
   }
 
   .instagram-feed {
@@ -292,7 +312,8 @@
 
   .contact {
     float: left;
-    width: 17.721518%;
+    width: 20.939914%;
+    margin-right: 8.154506%;
   }
 
   .contact li {
@@ -332,13 +353,19 @@
 }
 
 @media (min-width: 992px) {
+  .page-content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   h3,
   .services-info h3 span {
     font-size: 50px;
     line-height: 65px;
   }
 
-  p,q {
+  p,
+  q {
     font-size: 18px;
     line-height: 30px;
   }
@@ -346,6 +373,7 @@
   /* header */
   .header {
     box-shadow: none;
+    margin-top: 80px;
   }
 
   .social a {
@@ -378,7 +406,7 @@
   }
 
   .discover button {
-    padding: 8px;
+    padding: 15px;
     font-size: 15px;
   }
 
@@ -418,8 +446,8 @@
     margin: 70px 0;
   }
 
-  .client-companies ul li img{
-    max-width:80px;
+  .client-companies ul li img {
+    max-width: 80px;
   }
 
   /* user must use margin in '-' minus cause the parenthesis font has default 
@@ -432,6 +460,10 @@
 
   .user-review {
     width: 75.12087%;
+  }
+  
+  .user-review p{
+    font-size: 22px;
   }
 
   .slider {
@@ -476,7 +508,7 @@
   /* work performed end */
 
   /* clients testomonials start */
-  .client-reviews > p {
+  .client-reviews li q {
     font-size: 25px;
   }
 
@@ -501,6 +533,11 @@
   .client-companies {
     margin-top: 50px;
   }
+
+  .client-companies .small-logo-client-companies a img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -510,12 +547,17 @@
     line-height: 88px;
   }
 
-  p,q {
-    font-size: 18px;
+  p,
+  q {
+    font-size: 22px;
     line-height: 40px;
   }
 
   /* header */
+  .header {
+    margin-top: 100px;
+  }
+
   .main-nav li a {
     font-size: 20px;
   }
@@ -532,48 +574,17 @@
   }
 
   .discover button {
-    padding: 10px;
+    padding: 20px;
     font-size: 18px;
   }
 
   /* discover end */
 
-  /* service start */
-  .services {
-    margin-top: 90px;
-    margin-bottom: 151px;
-  }
-
-  .services-container {
-    width: 45.10125889%;
-    padding-left: 8.92172961%;
-  }
-
-  .services-info span {
-    font-size: 24px;
-  }
-
-  .button-indicators {
-    margin-top: 26px;
-  }
-
-  .button-indicators button {
-    width: 50px;
-    height: 50px;
-  }
-
   .product-images {
     width: 45.046524%;
-    top: -288px;
-    height: 600px;
+    top: -240px;
+    height: 500px;
   }
-
-  .product {
-    top: -180px;
-    right: 10.14150943%;
-  }
-
-  /* service end */
 
   /* user testomonila start */
   .user-review {
@@ -618,21 +629,17 @@
   }
 
   .tasks {
-    width: 54.945054%;
+    width: 51.538461%;
     margin-top: 80px;
   }
 
   .tasks li {
     width: 48%;
-    height: 570px;
-  }
-
-  .tasks li {
     height: 400px;
   }
 
   .info {
-    height: 50%;
+    height: 35%;
     padding: 25px;
   }
 
@@ -657,6 +664,11 @@
   .services-performed > p {
     margin-top: 9px;
     margin-bottom: 40px;
+  }
+
+  .services-performed .topic-info {
+    margin-top: 40px;
+    margin-bottom: 60px;
   }
 
   .services-list {
@@ -714,7 +726,7 @@
     margin-top: 80px;
   }
 
-  .client-reviews > p {
+  .client-reviews li q {
     font-size: 36px;
   }
 
@@ -741,9 +753,9 @@
 
   /* clients testomonials end */
 
-.client-companies ul li img{
-  max-width:115px;
-}
+  .client-companies ul li img {
+    max-width: 115px;
+  }
 
   .clients-photo {
     margin-top: 150px;
@@ -755,8 +767,20 @@
 
   /* footer start */
   .footer-content {
-    width: 65.384615%;
+    width: 63.940724%;
     padding: 0px;
+  }
+
+  .short-links {
+    width: 19.742489%;
+  }
+
+  .short-links ul {
+    width: 50%;
+  }
+
+  .contact {
+    width: 17.939914%;
   }
 
   .company-links {
@@ -764,4 +788,52 @@
   }
 
   /* footer end */
+}
+
+@media (min-width: 1400px) {
+  /* service start */
+  .services {
+    margin-top: 90px;
+    margin-bottom: 151px;
+  }
+
+  .services-container {
+    width: 45.10125889%;
+    padding-left: 8.92172961%;
+  }
+
+  .services-info span {
+    font-size: 24px;
+  }
+
+  .product-images {
+    width: 45.046524%;
+    top: -288px;
+    height: 600px;
+  }
+
+  .button-indicators {
+    margin-top: 26px;
+  }
+
+  .button-indicators button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product {
+    top: -180px;
+    right: 10.14150943%;
+  }
+
+  /* service end */
+  
+
+  .tasks li {
+    height: 570px;
+  }
+
+  .services-list li p {
+    width: 63.125%;
+  }
 }

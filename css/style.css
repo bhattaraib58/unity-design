@@ -9,6 +9,11 @@ li {
   display: inline-block;
 }
 
+svg {
+  width: 100%;
+  height: auto;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -27,9 +32,14 @@ h3,
   font-weight: bolder;
 }
 
-p,q {
+p,
+q {
   font-size: 12px;
   line-height: 25px;
+}
+
+.topic-info {
+  font-weight: 600;
 }
 
 .clearfix::after {
@@ -41,8 +51,8 @@ p,q {
 .page-content {
   margin: 0px auto;
   width: 100%;
-  padding-left: 2.604166%;
-  padding-right: 2.604166%;
+  padding-left: 8px;
+  padding-right: 8px;
   box-sizing: border-box;
   max-width: 120rem;
 }
@@ -54,9 +64,7 @@ p,q {
 
 .header {
   background-color: #ffffff;
-  padding-top: 4.791666%;
-  padding-bottom: 1%;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  margin-top: 40px;
   position: relative;
 }
 
@@ -75,12 +83,14 @@ p,q {
 
 .logo a img {
   width: 100%;
+  min-width: 70px;
+  max-width: 150px;
   height: auto;
   vertical-align: top;
 }
 
 .social {
-  margin-top: 18.45679%;
+  margin-top: 10px;
 }
 
 .social a {
@@ -89,33 +99,31 @@ p,q {
   width: 8px;
 }
 
+.social a:hover > svg path {
+  fill: #ff5617;
+}
+
 .social a:not(:last-child) {
   margin-right: 4px;
 }
 
 .nav-bar-toggler {
-  margin-top: 5px;
   float: right;
-  width: 12.239583%;
-  min-width: 25px;
+  width: 8.239583%;
+  min-width: 26px;
   max-width: 43px;
   height: inherit;
   border: none;
   background: transparent;
 }
 
-.nav-bar-toggler:hover {
-  background: #ececec;
-}
-
-.nav-bar-toggler img {
-  width: 80%;
-  height: auto;
+.nav-bar-toggler:hover > svg path {
+  fill: #ff5617;
 }
 
 /* nav which comes when hamburger is clicked */
 .main-nav {
-  margin-top: 20px;
+  padding: 20px 0px;
   position: absolute;
   top: 100%;
   left: 0%;
@@ -205,7 +213,7 @@ p,q {
   background-color: #ff5617;
   border: none;
   border-radius: 50px;
-  padding: 5px;
+  padding: 10px;
   font-size: 9px;
   white-space: nowrap;
   width: 10.824175%;
@@ -246,12 +254,24 @@ p,q {
   font-size: 12px;
 }
 
+.services-info h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
 .services-info h3 span {
   color: #ff5617;
 }
 
 .services-info p {
   margin-top: 25px;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .button-indicators {
@@ -266,7 +286,7 @@ p,q {
   height: 30px;
 
   background-color: white;
-  border: 1px solid black;
+  border: 1.5px solid black;
   color: black;
 }
 
@@ -330,6 +350,7 @@ p,q {
 }
 
 .arrows button img {
+  min-width: 10px;
   width: 100%;
   height: auto;
 }
@@ -384,9 +405,19 @@ p,q {
   float: left;
   width: 80%;
 }
+.user-review h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
 
 .user-review p {
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 
 /* user must use margin in '-' minus cause the parenthesis font has default 
@@ -427,8 +458,8 @@ p,q {
 .slider {
   width: 7.0564516%;
   float: right;
-  margin-top: 7.3669354%;
-  margin-bottom: 7.3669354%;
+  margin-top: 6.3669354%;
+  margin-bottom: 6.3669354%;
 }
 
 .slider button {
@@ -463,6 +494,13 @@ p,q {
 .slider .current-index {
   opacity: 1;
   font-size: 20px;
+}
+
+.slider button img {
+  min-width: 10px;
+  width: 39%;
+  height: auto;
+  max-width: 20px;
 }
 
 /* user testomonila end */
@@ -581,6 +619,7 @@ p,q {
 .title {
   font-size: 20px;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .task-category {
@@ -606,10 +645,20 @@ p,q {
   text-align: center;
 }
 
+.services-performed .topic-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .services-performed h3,
 .services-performed > p {
   margin: 0px auto;
   width: 100%;
+}
+
+.services-performed .topic-info {
+  width: 100%;
+  margin: 0px auto;
 }
 
 .services-performed > p {
@@ -617,7 +666,7 @@ p,q {
   margin-bottom: 20px;
 }
 
-.services-list {
+.services-performed .services-list {
   margin-top: 30px;
   padding: 0px;
 }
@@ -632,13 +681,14 @@ p,q {
   float: left;
 }
 
-.services-list li img,.services-list li svg {
+.services-list li img,
+.services-list li svg {
   width: 14.38244%;
   height: auto;
   margin-top: 10px;
 }
 
-.services-list li svg:hover{
+.services-list li svg:hover {
   fill: #ffffff;
 }
 
@@ -649,6 +699,7 @@ p,q {
 }
 
 .services-list li p {
+  margin: 0 auto;
   font-size: 10px;
   line-height: 15px;
   margin-top: 15px;
@@ -657,7 +708,7 @@ p,q {
 
 .services-list li:hover,
 .services-list li:hover > a,
-.services-list li:hover>a svg path {
+.services-list li:hover > a svg path {
   background-color: #2c3da7;
   color: #ffffff;
   fill: #ffffff;
@@ -719,8 +770,7 @@ p,q {
   height: 20%;
 }
 
-.video-control span
-{
+.video-control span {
   width: 60%;
   display: inline-block;
   word-break: break-word;
@@ -759,8 +809,13 @@ p,q {
   margin-top: 30px;
 }
 
-.client-reviews > p {
+.client-reviews li q {
   font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-weight: 600;
 }
 
 .client-info {
@@ -771,12 +826,14 @@ p,q {
 .client-name {
   font-size: 12px;
   line-height: 12px;
+  font-weight: 400;
 }
 
 .client-office {
   font-size: 10px;
   line-height: 10px;
   margin-top: 10px;
+  font-weight: 400;
 }
 
 .client-office a {
@@ -822,6 +879,7 @@ p,q {
 }
 
 .clients .active img {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
   height: 40px;
   width: 40px;
 }
@@ -832,7 +890,7 @@ p,q {
   background-color: #ffffff;
 }
 
-.clients-photo {
+.clients-photo-wrapper .clients-photo {
   margin-top: 60px;
   padding: 0;
 }
@@ -849,6 +907,10 @@ p,q {
   height: 100%;
 }
 
+.clients-user li:hover {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+}
+
 .client-companies {
   margin-top: 30px;
 }
@@ -858,15 +920,22 @@ p,q {
   text-align: center;
   vertical-align: middle;
 }
+.client-companies .small-logo-client-companies a img {
+  height: 16px;
+  width: auto;
+}
 
 .client-companies li {
   margin-right: 4px;
 }
 
-.client-companies ul li img{
+.client-companies ul li img {
   height: auto;
   width: 100%;
-  max-width:40px;
+  max-width: 40px;
+}
+.client-companies li img:hover {
+  box-shadow: 0 0 10px 0px rgba(97, 97, 97, 0.5);
 }
 
 /* clients testomonials end */
@@ -927,7 +996,8 @@ p,q {
 .short-links {
   float: left;
   width: 40%;
-  margin-right: 4.5751633%;
+  margin-left: 4.72103%;
+  margin-right: 4.72103%;
 }
 
 /* as the li tag list is before the text we must use '-' minus */
@@ -937,6 +1007,7 @@ p,q {
 
 .main-links {
   float: left;
+  width: 100%;
 }
 
 .company-links {
@@ -949,8 +1020,8 @@ p,q {
 /* contact start */
 .contact {
   float: right;
-  width: 40%;
-  margin-right: 4.496732%;
+  width: 42%;
+  margin-right: 8.154506%;
 }
 
 .contact li {
@@ -982,8 +1053,8 @@ p,q {
 /* feedback start */
 .feedback {
   float: left;
-  width: 23.20675%;
-  margin-right: 2.777777%;
+  width: 23.433476%;
+  margin-right: 2.48927%;
   display: none;
 }
 
@@ -997,6 +1068,7 @@ p,q {
   margin-bottom: 5px;
   width: 90%;
   font-size: 12px;
+  resize: none;
 }
 
 .feedback button {
@@ -1007,15 +1079,26 @@ p,q {
   text-align: center;
   padding: 0px 20px;
 }
+
+.feedback button:hover {
+  background-color: #ff4400;
+}
+
+.feedback button:active {
+  background-color: #d63d05;
+}
 /* .feedback end */
 
 .instagram-feed {
   display: none;
-  float: right;
-  width: 23.628691%;
+  float: left;
+  width: 23.03433%;
 }
 .instagram-feed ul li {
   width: 23%;
+}
+.instagram-feed ul li:hover {
+  box-shadow: 0 0 10px 0px rgba(252, 249, 249, 0.253);
 }
 
 .instagram-feed img {
